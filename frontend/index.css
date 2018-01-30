@@ -233,49 +233,6 @@
    font-family:"微软雅黑";
    color:#979797;
  }
- #boss12{
-   margin:0px;
-   padding:0%;
-   position:absolute;
-   height:412px;
-   width:179px;
-   top:250px;
-   left:1050px;
-   background:url(part3.png);
- }
- #boss121{
-   margin:0px;
-   padding:0%;
-   position:absolute;
-   height:18px;
-   width:15px;
-   top:5%;
-   left:20%;
- }
- #boss122{
-   margin:0px;
-   padding:0%;
-   position:absolute;
-   height:28px;
-   width:100px;
-   top:4%;
-   left:55px;
-   font-family:"微软雅黑";
-       color:#979797;
-   font-size:120%;
- }
- #boss123{
-   margin:0px;
-   padding:0%;
-   position:absolute;
-   height:50px;
-   width:179px;
-   top:0%;
-   left:0%;
-   background:;
-   border-bottom:1px dashed black;
-
- }
  #display{
    margin:0%;
    padding:0%;
