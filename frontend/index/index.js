@@ -48,6 +48,8 @@ function all_demo(){
     document.getElementById("boss105").style.left="21.5%";
     document.getElementById("boss106").style.left="22%";
   }
+
+  
   function ding_p(){
     document.getElementById("boss1011").src="all.png";
     document.getElementById("boss1022").src="lost_pressed.png";
