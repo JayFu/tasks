@@ -4,25 +4,42 @@
             Step multi question
         </title>
         <script type="text/javascript">
-        function factorial(num){  
-        var result = 1;  
-        while(num){  
-            result *= num;  
-            num--;  
-        }  
-        document.section.article.zoe.value=result;  
-    }
+        function factorial(){  
+            var result = 1;  
+            num = document.getElementById("nnn").value
+            while(num){  
+                result *= num;  
+                num --;  
+            }  
+            document.getElementById("zoe").value = result;  
+        }
         </script>
+        <style type="text/css">
+            body {
+                height: 500px;
+                background-color: #52ccf9}
+            h1 {
+                border: solid #c0c0c0 5px;
+                margin: 140px}
+            form {
+                width: 500px;
+                margin-left: 300px;
+                margin-top: 180px;
+                padding: 30px;
+                background-color: yellow;
+                position: absolute; top: 70px; left: 0px;}
+        </style>
     </head>
-    <header>
-        Here is a js function which help on handle out a value of step multi.
-    </header>
-    <section>
-        <header>
-            please input a positive integer
-        </header>
-        <article>
-            <input type="number" name="nnn" value="1"><input type="button" value="go!" onclick="factorial(nnn)">ending is<input type="text" name="zoe">
-        </article>
-    </section>
+    <body>
+            <h1>
+                    Here is a js function which help on handle out a value of step multi.
+            </h1>
+        <form id="ccc">
+            please input a positive integer<br> 
+            <input type="number" id="nnn" name="nnn" value="1">
+            <input type="button" value="Go!" onclick="factorial()">
+            ending is
+            <input type="number" id="zoe" name="zoe" value="1">
+        </form>
+    </body>
 </html>
