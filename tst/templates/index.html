@@ -29,6 +29,10 @@
                 background-color: yellow;
                 position: absolute; top: 70px; left: 0px;}
         </style>
+        <script type="text/javascript">
+            function jjump(){
+                window.location.href="https://leetcode.com/problemset/all"}
+        </script>
     </head>
     <header>
         There are two sorted arrays nums1 and nums2 of size m and n respectively.<br>
@@ -40,7 +44,12 @@
         You can visit this website by the link on the left.
     </section>
     <nav>
-        <a href="stepmulti.html">try step multi</a><br>
-        <a href="https://leetcode.com/problemset/all/">LeetCode.com</a>
+        <form action="/try" method="GET">
+            <button type="submit">tru step multi</button>
+        <!-- <a href="stepmulti.html">try step multi</a><br> -->
+            <input type="button" value="LeetCode.com" onclick="jjump(0)">
+            <!-- <input type="button" value="LeetCode.com" onclick="window.location.href('https://leetcode.com/problemset/all/')"> -->
+        <!-- <a href="https://leetcode.com/problemset/all/">LeetCode.com</a> -->
+        </form>
     </nav>
 </html>

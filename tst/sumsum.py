@@ -45,5 +45,13 @@ def findMedianSortedArrays():
 
         return render_template( 'endingg.html', ending = outcc)
 
+@app.route('/goindex', methods = ['GET'])
+def goindex():
+    return render_template('index.html')
+
+@app.route('/try', methods = ['GET'])
+def TTry():
+    return render_template('stepmulti.html')
+
 if __name__ == '__main__':
     app.run()
